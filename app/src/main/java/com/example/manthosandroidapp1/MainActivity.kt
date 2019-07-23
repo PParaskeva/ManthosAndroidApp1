@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         }
         button6.setOnClickListener {
             println(button6.text)
-            colorSample.setBackgroundColor(Color.parseColor("#1aff66"))
+            colorSample.setBackgroundColor(Color.GRAY)
         }
     }
 }
